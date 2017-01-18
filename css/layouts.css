@@ -1,0 +1,162 @@
+div.blue {
+	background-color: blue;
+	border: 20px solid lightblue;
+	display: none;
+}
+div.red {
+	background-color: pink;
+	border: 20px solid pink;
+	display: none;
+}
+div.yellow {
+	border: 20px solid #ffffb2;
+	background-color: #ffffb2;
+	display:none;
+}
+div.img {
+	float: left;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+h2 {
+	font-family: "Georgia";
+	font-style: italic;
+}
+img {
+	float: left;
+	max-width: 100px;
+	max-height: 250px;
+
+}
+body {
+	overflow: scroll;
+	background-color: #FFFFF2;
+	border-top: 150px;
+	border-top-style: solid;
+	border-color: #333;
+	position: relative;
+	float: auto;
+	padding: 5px 0 0 20px;
+	margin-bottom: 50px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -28px;
+}
+h1 {
+	float: left;
+	margin-left: -75px;
+	margin-top: 150px;
+	margin-right: 0px;
+	font-size: 10px;
+	max-width: 100px;
+	}
+div {
+	text-align: justify;
+	margin-left: 102px;
+	font-style: italic;
+	align-items: center;
+}
+div img {
+	padding-left: 5px;
+	float: right;
+}
+ul.topnav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: navy;}
+
+@media screen and (max-width: 600px){
+	ul.topnav li.right,
+	ul.topnav li {float: none;}
+	ul.topnav body {padding: 60px 0 0 0;}
+@media screen and (max-width: 400px){
+		ul.topnav li.right,
+	ul.topnav li {width: 100%;}
+	ul.topnav {width: -100%;}
+	body {font-size: 75%;}
+	img {visibility: hidden;}
+	img {float:none;}
+	img {max-height: 0px;}
+	div {margin: -0px;}
+	body {padding: 0px;}
+	h1 {visibility: hidden;}
+}
+}
+.close{
+	z-index:2;
+	position:fixed;
+	top:0;
+	right:0;
+	width:70px;
+	height:70px;
+	background:url('https://cdn4.iconfinder.com/data/icons/geomicons/32/672366-x-128.png') no-repeat center center;
+	background-size:contain;
+	margin:20px;
+	display:none;
+	
+}
